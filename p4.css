@@ -1,21 +1,25 @@
-body{
+body {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 95%);
+    display: flex;
+    height: 100vh;
 }
-h1{
+
+h1 {
     color: hsl(223, 100%, 64%);
 }
-form{
+
+form {
     background-color: hsl(0, 0%, 100%);
     text-align: center;
     max-width: 350px;
     margin: auto;
     padding: 25px;
-    border-radius: 10px ;
+    border-radius: 10px;
     box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
 }
 
-#textbox{
+#textbox {
     width: 50%;
     text-align: center;
     font-size: 2em;
@@ -23,12 +27,14 @@ form{
     border-radius: 4px;
     margin-bottom: 15px;
 }
-label{
+
+label {
     font-size: 1.5em;
     font-weight: bold;
 
 }
-button{
+
+button {
     margin-top: 15px;
     background-color: hsl(0, 100%, 50%);
     color: white;
@@ -38,10 +44,12 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: hsl(0, 100%, 70%);
 }
-#result{
+
+#result {
     font-size: 1.75em;
     font-weight: bold;
 }
